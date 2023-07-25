@@ -1,0 +1,116 @@
+.Weather {
+  font-family: 'JetBrains Mono', monospace;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0px 30px 50px rgba(65, 50, 100, 0.08);
+  padding: 40px;
+  color: rgb(135, 135, 135);
+}
+
+.Weather form {
+  border-bottom: 1px solid #fffbf5;
+  padding-bottom: 0px;
+}
+
+.Weather .search-input {
+  background: #f9f7fe;
+  border: none;
+  padding: 15px 20px;
+  display: inline-block;
+  border-radius: 6px;
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 16px;
+  height: 50px;
+  line-height: 20px;
+  box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+  border-color: #ffff;
+}
+
+.Weather .btn {
+  background: #0281dc;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 15px 0;
+  border: none;
+  height: 50px;
+  box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+  border-color: #ffff;
+}
+
+.Weather .search-input::placeholder {
+  line-height: 20px;
+  color: rgba(39, 33, 66, 0.4);
+}
+
+.Weather .btn:is(:hover, :focus) {
+  color: #0281dc;
+  background-color: #fffbf5;
+}
+
+.Weather h1 {
+  margin: 20px 0 10px 0;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 48px;
+  color: #0281dc;
+}
+
+.Weather ul {
+  margin: 0;
+  padding: 0;
+}
+
+.Weather li {
+  font-weight: 500;
+  margin-bottom: 5px;
+  color: grey;
+  font-size: 12px;
+  line-height: 20px;
+  list-style-type: none;
+}
+
+.Weather li strong {
+  color: #0281dc;
+  font-weight: normal;
+}
+
+.Weather .temperature {
+  font-weight: bold;
+  color: #d63384;
+  margin-left: 5px;
+  font-weight: 400;
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: 80px;
+}
+
+.temperature:is(:hover, :focus) {
+  color: #0281dc;
+}
+
+.Weather canvas {
+  margin: 10px 0;
+}
+
+.Weather .unit {
+  color: rgb(33, 33, 33);
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: normal;
+  position: relative;
+  line-height: 1;
+  top: -34px;
+}
+
+.Weather footer {
+  font-size: 10px;
+  margin-top: 50px;
+  line-height: 18px;
+  text-align: center;
+  color: grey;
+  max-width: 720px;
+}
+
+.Weather footer a {
+  color: #0281dc;
+}

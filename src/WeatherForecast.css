@@ -1,0 +1,47 @@
+.WeatherForecast {
+  text-align: center;
+  margin-top: 20px;
+  border-bottom: 1px solid #f9f7fe;
+  margin-left: 10px;
+}
+
+.WeatherForecast:is(:hover, :focus) {
+  opacity: 0.9;
+  cursor: pointer;
+  background: #fffbf5;
+}
+
+.card {
+  border-color: #ffff;
+}
+
+.card:is(:hover, :focus) {
+  opacity: 0.9;
+  cursor: pointer;
+  background: #fffbf5;
+}
+
+.WeatherForecast .forecast-time {
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: grey;
+}
+
+.WeatherForecast .forecast-temperature {
+  font-style: normal;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #d63384;
+  font-weight: bold;
+}
+
+.WeatherForecast .forecast-temperature-min {
+  opacity: 0.6;
+  color: #d63384
+}
+
+.Weather .WeatherForecast canvas {
+  display: block;
+  margin: 10px auto;
+}
