@@ -76,7 +76,7 @@ export default function Weather(props) {
           </a>{" "}
           and is{" "}
           <a
-            href="https://olga067965.github.io/week5-react-weather-search-engine/"
+            href="https://olga067965.github.io/osa-react-weather-search/"
             target="_blank"
             rel="noopener noreferrer"
           >
