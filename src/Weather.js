@@ -68,7 +68,7 @@ export default function Weather(props) {
         <footer>
           This project was coded by{" "}
           <a
-            href="https://www.linkedin.com/in/olga-savelieva-546397257/"
+            href="https://www.linkedin.com/in/olga-s-546397257/"
             target="_blank"
             rel="noopener noreferrer"
           >
