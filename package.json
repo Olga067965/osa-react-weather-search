@@ -2,7 +2,7 @@
   "name": "osa-react-weather-search",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://olga067965.github.io/osa-react-weather-search/",
+  "homepage": "https://Olga067965.github.io/osa-react-weather-search/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
